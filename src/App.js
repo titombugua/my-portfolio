@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
     <Layout fixedHeader>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Julius-   Mbugua</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/my-portfolio">Julius-   Mbugua</Link>} scroll>
             <Navigation>
                 <Link to="/about">About</Link>
                 <Link to="/projects">Portfolio</Link>
